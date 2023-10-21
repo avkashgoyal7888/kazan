@@ -8319,7 +8319,6 @@ button.bg-dark:focus {
   right: 0;
   left: 0;
   z-index: 1030;
-  height: 100px;
 }
 
 .fixed-bottom {
@@ -14240,14 +14239,14 @@ p.white {
 
 /*-- //play icon animation --*/
 .btn-style {
-  padding: 0px 36px;
-  font-size: 16px;
-  line-height: 52px;
+  padding: 0px 26px;
+  font-size: 14px;
+  line-height: 42px;
   text-transform: capitalize;
   font-weight: 600;
   transition: 0.3s ease-in;
   border-radius: var(--border-radius);
-  height: 56px;
+  height: 36px;
 }
 
 .btn-style:hover {
@@ -14404,6 +14403,7 @@ a.link-style:hover:before {
   height: 24px;
   padding: 3px 0;
   margin-left: 20px;
+  margin-top: 10px;
 }
 
 .gg-sun {
