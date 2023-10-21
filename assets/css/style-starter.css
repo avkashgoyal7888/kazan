@@ -1,15 +1,5 @@
 @charset "UTF-8";
 
-/*--
-Author: W3layouts
-Author URL: http://w3layouts.com
---*/
-/*!
- * Bootstrap v4.4.1 (https://getbootstrap.com/)
- * Copyright 2011-2019 The Bootstrap Authors
- * Copyright 2011-2019 Twitter, Inc.
- * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
- */
 :root {
   --blue: #007bff;
   --indigo: #6610f2;
@@ -4588,7 +4578,7 @@ input[type="button"].btn-block {
   flex-wrap: wrap;
   align-items: center;
   justify-content: space-between;
-  padding: 0.5rem 1rem;
+  padding: 1rem 1rem;
 }
 
 .navbar .container,
@@ -4605,12 +4595,9 @@ input[type="button"].btn-block {
 
 .navbar-brand {
   display: inline-block;
-  padding-top: 0.3125rem;
-  padding-bottom: 0.3125rem;
+  padding-top: 0;
+  padding-bottom: 0;
   margin-right: 1rem;
-  font-size: 1.25rem;
-  line-height: inherit;
-  white-space: nowrap;
 }
 
 .navbar-brand:hover,
@@ -4646,6 +4633,7 @@ input[type="button"].btn-block {
   flex-basis: 100%;
   flex-grow: 1;
   align-items: center;
+  padding: 0 50px;
 }
 
 .navbar-toggler {
@@ -8331,6 +8319,7 @@ button.bg-dark:focus {
   right: 0;
   left: 0;
   z-index: 1030;
+  height: 100px;
 }
 
 .fixed-bottom {
@@ -14720,7 +14709,7 @@ nav ul li a:hover {
 
 @media only screen and (max-width: 1199px) {
   .navbar .navbar-brand img {
-    max-width: 109px;
+    max-width: 200px;
   }
 
   .navbar-expand-lg .btn-gradient {
@@ -14763,7 +14752,7 @@ nav ul li a:hover {
   }
 
   .navbar .navbar-brand img {
-    max-width: 140px;
+    max-width: 200px;
   }
 
   .navbar-toggler {
@@ -14874,9 +14863,6 @@ nav ul li a:hover {
     max-width: 200px;
   }
 
-  .navbar .navbar-brand {
-    font-size: 30px !important;
-  }
 
   .mobile-position {
     top: 10px;
