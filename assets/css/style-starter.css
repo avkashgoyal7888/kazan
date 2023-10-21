@@ -15,7 +15,7 @@
   --gray: #6c757d;
   --gray-dark: #343a40;
   --primary: #000000;
-  --secondary: #FF1654;
+  --secondary: #117019;
   --success: #28a745;
   --info: #17a2b8;
   --warning: #ffc107;
@@ -2796,8 +2796,8 @@ fieldset:disabled a.btn {
 
 .btn-secondary {
   color: #fff;
-  background-color: #FF1654;
-  border-color: #FF1654;
+  background-color: #117019;
+  border-color: #117019;
 }
 
 .btn-secondary:hover {
@@ -2817,8 +2817,8 @@ fieldset:disabled a.btn {
 .btn-secondary.disabled,
 .btn-secondary:disabled {
   color: #fff;
-  background-color: #FF1654;
-  border-color: #FF1654;
+  background-color: #117019;
+  border-color: #117019;
 }
 
 .btn-secondary:not(:disabled):not(.disabled):active,
@@ -3118,14 +3118,14 @@ fieldset:disabled a.btn {
 }
 
 .btn-outline-secondary {
-  color: #FF1654;
-  border-color: #FF1654;
+  color: #117019;
+  border-color: #117019;
 }
 
 .btn-outline-secondary:hover {
   color: #fff;
-  background-color: #FF1654;
-  border-color: #FF1654;
+  background-color: #117019;
+  border-color: #117019;
 }
 
 .btn-outline-secondary:focus,
@@ -3135,7 +3135,7 @@ fieldset:disabled a.btn {
 
 .btn-outline-secondary.disabled,
 .btn-outline-secondary:disabled {
-  color: #FF1654;
+  color: #117019;
   background-color: transparent;
 }
 
@@ -3143,8 +3143,8 @@ fieldset:disabled a.btn {
 .btn-outline-secondary:not(:disabled):not(.disabled).active,
 .show>.btn-outline-secondary.dropdown-toggle {
   color: #fff;
-  background-color: #FF1654;
-  border-color: #FF1654;
+  background-color: #117019;
+  border-color: #117019;
 }
 
 .btn-outline-secondary:not(:disabled):not(.disabled):active:focus,
@@ -5425,7 +5425,7 @@ a.badge-primary.focus {
 
 .badge-secondary {
   color: #fff;
-  background-color: #FF1654;
+  background-color: #117019;
 }
 
 a.badge-secondary:hover,
@@ -14008,7 +14008,7 @@ a.text-dark:focus {
 
 :root {
   --primary-color: #000000;
-  --secondary-color: #FF1654;
+  --secondary-color: #117019;
   --font-color: #777;
   --bg-color: #fff;
   --heading-color: #151b1d;
@@ -14029,7 +14029,7 @@ a.text-dark:focus {
 
 [data-theme="dark"] {
   --primary-color: #000000;
-  --secondary-color: #FF1654;
+  --secondary-color: #117019;
   --font-color: #999;
   --bg-color: #000;
   --heading-color: #fff;
