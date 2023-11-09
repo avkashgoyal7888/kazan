@@ -339,6 +339,9 @@
 	display: inline-block;
 	height: 58px;
 }
+.milestone_img{
+	margin-top: 25px;
+}
 .milestone_img img
 {
 	height: 58px;
