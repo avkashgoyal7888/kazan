@@ -116,63 +116,73 @@
             <div class="home_fix">
                 <div class="home_background parallax-window" data-parallax="scroll" data-image-src="images/home_fixed/contact_background.jpg"></div>
                 <div class="home_content">
-                    <div class="home_title">Contact Us</div>
+                    <div class="home_title">Online Booking</div>
                 </div>
             </div>
             <div class="testimonials">
-                <div class="test_border"></div>
                 <div class="container">
                     <div class="col text-center">
-                        <h2 class="section_title mb-5">Reach Out To Us</h2>
+                        <h2 class="section_title mb-5">Fill This Form For Online Booking</h2>
                     </div>
-                    <div class="row">
-                        <!-- Milestone -->
-                        <div class="col-lg-4 milestone_col">
-                            <div class="milestone text-center">
-                                <div class="milestone_img"><img src="images/placeholder.svg" alt=""></div>
-                                <div class="milestone_counter2">Address</div>
-                                <div class="milestone_text2">The Grand Leoney, Vagator, Goa (403519)</div>
+                    <form>
+                        <div class="row justify-content-center">
+                            <div class="col-lg-4 col-md-4 col-sm-6 col-6">
+                                <label class="input-label mt-4">Select Type</label>
+                                <select class="form-control">
+                                    <option>Select Type</option>
+                                    <option>Member</option>
+                                    <option>Non Member</option>
+                                </select>
+                            </div>
+                            <div class="col-lg-4 col-md-4 col-sm-6 col-6">
+                                <label class="input-label mt-4">Membership No/Voucher No</label>
+                                <input class="form-control" type="text" placeholder="Membership No/Voucher No">
+                            </div>
+                            <div class="col-lg-4 col-md-4 col-sm-6 col-6">
+                                <label class="input-label mt-4">Member Name</label>
+                                <input class="form-control" type="text" placeholder="Name">
+                            </div>
+                            <div class="col-lg-4 col-md-4 col-sm-6 col-6">
+                                <label class="input-label mt-4">Guest Name (If Any)</label>
+                                <input class="form-control" type="text" placeholder="Guest">
+                            </div>
+                            <div class="col-lg-4 col-md-4 col-sm-6 col-6">
+                                <label class="input-label mt-4">Contact No</label>
+                                <input class="form-control" type="text" placeholder="Contact No">
+                            </div>
+                            <div class="col-lg-4 col-md-4 col-sm-6 col-6">
+                                <label class="input-label mt-4">Email Id</label>
+                                <input class="form-control" type="text" placeholder="Email Id">
+                            </div>
+                            <div class="col-lg-4 col-md-4 col-sm-6 col-6">
+                                <label class="input-label mt-4">Destination</label>
+                                <input class="form-control" type="text" placeholder="Destination">
+                            </div>
+                            <div class="col-lg-4 col-md-4 col-sm-6 col-6">
+                                <label class="input-label mt-4">Number of Rooms</label>
+                                <input class="form-control" type="text" placeholder="Number of Rooms">
+                            </div>
+                            <div class="col-lg-4 col-md-4 col-sm-6 col-6">
+                                <label class="input-label mt-4">No of Adults</label>
+                                <input class="form-control" type="text" placeholder="No of Adults">
+                            </div>
+                            <div class="col-lg-4 col-md-4 col-sm-6 col-6">
+                                <label class="input-label mt-4">No of Children Below 6 Years</label>
+                                <input class="form-control" type="text" placeholder="Number of Rooms">
+                            </div>
+                            <div class="col-lg-4 col-md-4 col-sm-6 col-6">
+                                <label class="input-label mt-4">Check In Date</label>
+                                <input class="form-control" type="date" placeholder="Number of Rooms">
+                            </div>
+                            <div class="col-lg-4 col-md-4 col-sm-6 col-6">
+                                <label class="input-label mt-4">Check Out Date</label>
+                                <input class="form-control" type="date" placeholder="Number of Rooms">
+                            </div>
+                            <div class="col-lg-4 col-md-4 col-sm-6 col-6">
+                                <button type="submit" id="form_submit_button" class="form_submit_button button">Book Now<span></button>
                             </div>
                         </div>
-                        <div class="col-lg-4 milestone_col">
-                            <div class="milestone text-center">
-                                <div class="milestone_img"><img src="images/phone-call.svg" alt=""></div>
-                                <div class="milestone_counter2">Contact</div>
-                                <div class="milestone_text2">+91-9209412692</div>
-                            </div>
-                        </div>
-                        <div class="col-lg-4 milestone_col">
-                            <div class="milestone text-center">
-                                <div class="milestone_img"><img src="images/message.svg" alt=""></div>
-                                <div class="milestone_counter2">Email</div>
-                                <div class="milestone_text2">info@kazanlifestyle.com</div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="contact">
-                <div class="contact_background" style="background-image:url(images/contact.png)"></div>
-                <div class="container">
-                    <div class="row">
-                        <div class="col-lg-5">
-                            <div class="contact_image">
-                            </div>
-                        </div>
-                        <div class="col-lg-7">
-                            <div class="contact_form_container">
-                                <div class="contact_title">Get in touch</div>
-                                <form action="#" id="contact_form" class="contact_form">
-                                    <input type="text" class="contact_form_name input_field" placeholder="Name">
-                                    <input type="text" class="contact_form_email input_field" placeholder="Number">
-                                    <input type="text" class="contact_form_subject input_field" placeholder="Email">
-                                    <input type="text" class="contact_form_subject input_field" placeholder="Subject" >
-                                    <textarea class="text_field contact_form_message" name="message" rows="4" placeholder="Message"></textarea>
-                                    <button type="submit" id="form_submit_button" class="form_submit_button button">send message<span></button>
-                                </form>
-                            </div>
-                        </div>
-                    </div>
+                    </form>
                 </div>
             </div>
             <!-- Footer -->
